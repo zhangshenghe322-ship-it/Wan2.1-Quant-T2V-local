@@ -1,0 +1,65 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.so
+
+# =====================
+# Virtual env / conda
+# =====================
+.venv/
+venv/
+env/
+conda/
+*.egg-info/
+
+# =====================
+# IDE
+# =====================
+.vscode/
+.idea/
+
+# =====================
+# Logs
+# =====================
+logs/
+*.log
+
+# =====================
+# Outputs / media
+# =====================
+outputs/
+experiments/
+*.mp4
+*.gif
+*.png
+*.jpg
+
+# =====================
+# Caches
+# =====================
+.cache/
+wandb/
+runs/
+
+# =====================
+# Model checkpoints / weights (DO NOT UPLOAD)
+# =====================
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+checkpoints/
+ckpt/
+models/
+experiments/
+outputs/
+__pycache__/
+*.pyc
+*.log
+*.mp4
+*.pt
+*.pth
+*.ckpt
+*.safetensors
